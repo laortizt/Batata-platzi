@@ -1,0 +1,22 @@
+
+/* se modifican las tablas en dos columnas*/
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+/* se modifica el slider para que despues de 930px se ubiquen los elementos en dos columnas*/
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+/* se modifica el slider para que despues de 930px se centre el contenido*/
+.plans-container--slider{
+    justify-content: center;
+}
+
